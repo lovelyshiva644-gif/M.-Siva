@@ -1,0 +1,7 @@
+def sumdigits(n):
+    if n==0:
+        return o
+    else:
+        return n%10+sumdigits(int(n/10))
+num=int(input("Enter the number:"))
+print(sumdigits(num))
