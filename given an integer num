@@ -1,0 +1,16 @@
+class Solution:
+    def addDigits(self, num: int) -> int:
+        if num==0:
+            return 0
+        else:
+            # Keep readucing unitl we get a single digit
+            While num >=10;
+              #sum all digit
+              digit_sum =0
+              for digit in str (num):
+                digit-sum+=int(digit)
+               num=digit_sum
+              retun num
+sol=solution()
+n=int(input("enter number"))
+print(sol.addDigits(n))               
